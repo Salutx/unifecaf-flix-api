@@ -6,9 +6,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
-    "preisma:generate": "npx prisma generate",
-    "prisma:migrate": "npx prisma migrate dev --name init"
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
