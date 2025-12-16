@@ -14,7 +14,7 @@ app.listen(PORT, () => {
     console.log(`            UNIFECAF Flix`);
     console.log(` 🔹 Servidor rodando na porta: ${PORT}`);
     console.log('\x1b[36m%s\x1b[0m', `======================================`);
+
     // Instructions to access the server and commands
     console.log('\x1b[90m%s\x1b[0m', `   Acesse: http://localhost:${PORT}`);
-
 });
