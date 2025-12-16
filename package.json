@@ -1,0 +1,23 @@
+{
+  "name": "unifecaf-flix-api",
+  "version": "1.0.0",
+  "description": "A simple Express.js application",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "preisma:generate": "npx prisma generate",
+    "prisma:migrate": "npx prisma migrate dev --name init"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "morgan": "^1.10.1",
+    "mysql2": "^3.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
